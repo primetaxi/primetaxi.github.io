@@ -1,0 +1,234 @@
+/*------------------------------------------------------------
+
+	Style.css
+
+	Created by:	Dave Rupert
+	Contact:		http://github.com/davatron5000/foldy960
+
+	Copyright 2012
+	License:	  WTFPL + "Not going to maintain this because
+              the rent is too damn high licence."
+
+--------------------------------------------------------------*/
+
+/* Responsive Resets
+-------------------------------------------------------------- */
+@-o-viewport {
+  width: device-width;
+}
+@-ms-viewport {
+  width: device-width;
+}
+@viewport {
+  width: device-width;
+}
+
+html {
+  overflow-y: auto;
+}
+
+img,
+audio,
+video,
+canvas {
+  max-width: 100%;
+}
+
+/* Grid > 6 Column Mobile First
+-------------------------------------------------------------- */
+.container {
+  /*
+    The `max-width` property is the width governer. I dare you to experiment
+    with setting this larger, something like 1280px.
+  */
+	max-width: 960px;
+	width:92%;
+	margin:0px auto;
+	position: relative;
+	background-color:#fff;
+	color: #383838;
+  -moz-box-shadow: 0 0 5px 5px #D8D8D8;
+  -webkit-box-shadow: 0 0 5px 5px #D8D8D8;
+  box-shadow: 0 0 5px 5px #D8D8D8;
+}
+
+.row {
+  clear: both;
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    width: 98%;
+  }
+
+  .grid-1,
+  .grid-2,
+  .grid-3,
+  .grid-4,
+  .grid-5,
+  .grid-6,
+  .grid-half,
+  .grid-full,
+  .grid-unit {
+    float: left;
+    width:96.969696969697%;
+    margin:0 1.515151515152% 1em;
+  }
+
+  .gallery .grid-unit,
+  .grid-half {
+    width:46.969696969697%;
+    margin: 0 1.515151515152% 1em;
+  }
+
+  .grid-flow-opposite{
+    float:right
+  }
+
+}
+
+@media screen and (min-width: 640px) {
+  .grid-1     { width: 13.636363636364%; }
+  .grid-2     { width: 30.30303030303%; }
+  .grid-3,
+  .grid-half  { width: 46.969696969697%; }
+  .grid-4     { width: 63.636363636364%; }
+  .grid-5     { width: 80.30303030303%; }
+  .grid-6,
+  .grid-full  { width: 96.969696969697%; }
+
+  .gallery .grid-unit {
+    width: 30.30303030303%;
+  }
+
+  .content-pad-right {
+    padding-right: 4%; /* Use (or don't) as necessary. */
+  }
+
+  .content-pad-left {
+    padding-left: 4%;
+  }
+
+}
+
+/* Micro Clearfix - http://nicolasgallagher.com/micro-clearfix-hack/
+For best results, use your favorite clearfix here.
+-------------------------------------------------------------- */
+.cf:before, .cf:after { content:""; display:table; }
+.cf:after { clear:both; }
+.cf { zoom:1; } /* For IE 6/7 (trigger hasLayout) */
+
+/* Layout
+-------------------------------------------------------------- */
+body {
+  font: 100%/1.5 sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color:#dfdfdf;
+  background:url('../img/bg_gray.png') repeat;
+}
+
+section {
+  /*  margin-bottom: 2em; */
+}
+
+footer {
+  font-size: 0.9em;
+  border-top: 5px solid #fec901;
+  padding: 0.5em 1em;
+  padding-bottom: 5em;
+  background-color:#0c0c0c;
+  color: #fff;
+}
+
+footer a {
+  color: #7f7f7f;
+}
+
+/* Typography
+-------------------------------------------------------------- */
+.heading {
+  font-size: 3em;
+  margin: 0;
+}
+
+.top {
+  background-color:#0c0c0c;
+  /*
+   * Keno pano apo to slider	
+   * margin: 0 0 1em 0;	
+   * 
+   * */
+  margin: 0;
+  padding-top: 1.3em;
+  width: 100%
+}
+
+.topalignright {
+	text-align: right;
+	color: #fff;
+}
+
+.topalignright a{
+	text-align: right;
+	text-decoration: none;
+	color: #fff;
+}
+
+.small-text {
+  font-size: 80%;
+  color: #7f7f7f;
+}
+
+.sub-heading {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+a {
+  color: #0c0c0c;
+}
+
+a:focus,
+a:hover {
+  color: #fec901;
+  /* text-decoration: none; */
+}
+
+/* Elements
+-------------------------------------------------------------- */
+figure {
+  margin: 0;
+  background: #f8f8f8;
+}
+
+figcaption {
+  padding: 0.5em 1em 1em;
+  font-size: 0.875em;
+}
+
+code {
+  padding: 0.5em;
+  background: #efefef;
+}
+
+/* Helpers
+-------------------------------------------------------------- */
+.show-grid div[class*='grid-'] {
+  background-color: #f5f5f5;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  /*
+  padding: 0.5em 1em;
+  text-align: center;
+  */
+  margin-bottom: 1em;
+}
+
+.show-grid div[class*='grid-'] p {
+  padding: 0 1em 0 1em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
