@@ -301,7 +301,7 @@ fieldset {
   width: 100%;
   font-size: 28px;
   background-color: #fec901;
-  margin-right: 20px;
+  /* margin-right: 20px; */
   padding: 20px 0 20px 0;
   color: #2d2d2d;
 }
