@@ -86,7 +86,7 @@ a:active,a:hover{outline:0}@-ms-viewport{width:device-width}@-o-viewport{width:d
 }
 
 .social-icons {
-    background: url("social.png") repeat scroll 0% 0% transparent;
+    background: url("http://assets.primetaxi.gr/img/social_icons/social_icons_sprite.png") repeat scroll 0% 0% transparent;
 }
 
 .icon {
