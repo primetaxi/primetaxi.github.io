@@ -74,12 +74,12 @@ a:active,a:hover{outline:0}@-ms-viewport{width:device-width}@-o-viewport{width:d
 --------------------------------------------- */
 .minheight300{min-height:300px}h1{font-size:1.5em;margin-bottom:.5em}h2,h3,h4{padding:.7em;color:#fec901;background-color:#2d2d2d;margin:0;font-size:1.5em}
 /* Services Sprite */
-.servicessprite{background:url(../img/services-sprite.png)}.fan{background-position:0 0;width:128px;height:128px}.baby{background-position:0 -133px;width:128px;height:128px}.plane{background-position:0 -266px;width:128px;height:128px}.wifi{background-position:0 -399px;width:128px;height:128px}.ipad{background-position:0 -532px;width:128px;height:128px}.wedding{background-position:0 -665px;width:128px;height:128px}.social{list-style:none;overflow:auto;max-width:888px;margin:auto;padding:0}.social li{float:left;margin:0 10px 10px}.social li p{margin-top:130px}
+.servicessprite{background:url(../img/services-sprite.png)}.fan{background-position:0 0;width:128px;height:128px}.baby{background-position:0 -133px;width:128px;height:128px}.plane{background-position:0 -266px;width:128px;height:128px}.wifi{background-position:0 -399px;width:128px;height:128px}.ipad{background-position:0 -532px;width:128px;height:128px}.wedding{background-position:0 -665px;width:128px;height:128px}.social{list-style:none;overflow:auto;max-width:888px;margin:auto;padding:0}.social li{float:left;margin:0 10px 120px}.social li p{margin-top:130px}
 /* Contact form */
 .formwrap{width:100%;max-width:480px}fieldset{border:0}.formstyle{border:#ccc solid 1px;color:#2d2d2d;font-size:18px;width:98%;background-color:#fff;margin-bottom:10px;padding:3px;transition:all .4s ease-in-out;border-radius:2px}.button{display:inline-block;text-decoration:none;text-align:center;font:700 16px/16px Lato,Arial,sans-serif;width:200px;padding:10px;margin:0 0 5px;color:#eee;background-color:#2d2d2d;border:#dedede solid 1px;border-radius:3px}.btnbooking{width:100%;font-size:28px;background-color:#fec901;padding:20px 0;color:#2d2d2d}.button:hover{color:#2d2d2d;background-color:#fec901;cursor:pointer}.btnbooking:hover{color:#eee}.vcard{padding:15px}.booking{background-color:#eee;padding:20px 0;text-align:right}.h1slogan{text-align:center}.help-block{color:red}#gmap_canvas img{max-width:none!important;background:none!important}
 
-/*	Social	*/
-.social {
+/*	Social Footer	*/
+.socialfooter {
     color: #FEC901;
     list-style: outside none none;
     overflow: auto;
