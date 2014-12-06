@@ -92,6 +92,7 @@ a:active,a:hover{outline:0}@-ms-viewport{width:device-width}@-o-viewport{width:d
 .socialfooter li{
   float:left;
   margin:0;
+  padding: 10px;
 }
 
 .social-icons {
