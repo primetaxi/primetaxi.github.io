@@ -83,17 +83,18 @@ a:active,a:hover{outline:0}@-ms-viewport{width:device-width}@-o-viewport{width:d
     color: #FEC901;
     list-style: outside none none;
     overflow: auto;
+    float: right;
 }
 
 .social-icons {
     background: url("http://assets.primetaxi.gr/img/social_icons/social_icons_sprite.png") repeat scroll 0% 0% transparent;
+    float: right;
 }
 
 .icon {
     float: right;
     width: 56px;
     height: 56px;
-    margin: 2px 0px 2px 0px;
     opacity: 0.85;
 }
 
