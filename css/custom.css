@@ -86,7 +86,7 @@ a:active,a:hover{outline:0}@-ms-viewport{width:device-width}@-o-viewport{width:d
     float: right;
 }
 
-.social li {
+.social ul li {
   padding: 0;
  } 
 .social-icons {
