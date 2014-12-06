@@ -82,8 +82,16 @@ a:active,a:hover{outline:0}@-ms-viewport{width:device-width}@-o-viewport{width:d
 .socialfooter {
     color: #FEC901;
     list-style: outside none none;
-    overflow: auto;
     float: right;
+    overflow:auto;
+    max-width:888px;
+    margin:auto;
+    padding:0
+}
+
+.socialfooter li{
+  float:left;
+  margin:0;
 }
 
 .social-icons {
