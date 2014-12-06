@@ -80,7 +80,27 @@ a:active,a:hover{outline:0}@-ms-viewport{width:device-width}@-o-viewport{width:d
 
 /*	Social	*/
 .social {
-    color: #F38094;
+    color: #FEC901;
     list-style: outside none none;
     overflow: auto;
+}
+
+.social-icons {
+    background: url("social.png") repeat scroll 0% 0% transparent;
+}
+
+.icon {
+    float: right;
+    width: 32px;
+    height: 32px;
+    margin: 15px 0px 2px 4%;
+    opacity: 0.85;
+}
+
+.facebook {
+	background-position: 0px 0px;
+}
+
+.googleplus {
+	background-position: 0px -67px;
 }
