@@ -9,12 +9,6 @@ a:active,a:hover{outline:0}@-ms-viewport{width:device-width}@-o-viewport{width:d
 /*
  * jQuery FlexSlider v2.2.0
  * http://www.woothemes.com/flexslider/
- *
- * Copyright 2012 WooThemes
- * Free to use under the GPLv2 license.
- * http://www.gnu.org/licenses/gpl-2.0.html
- *
- * Contributing author: Tyler Smith (@mbmufffin)
  */
 
 /* Browser Resets
@@ -80,24 +74,24 @@ a:active,a:hover{outline:0}@-ms-viewport{width:device-width}@-o-viewport{width:d
 
 /*	Social Footer	*/
 .socialfooter {
-    color: #FEC901;
-    list-style: outside none none;
-    float: right;
-    overflow:auto;
-    max-width:888px;
-    margin:auto;
-    padding:0
+	color: #FEC901;
+	list-style: outside none none;
+	float: right;
+	overflow:auto;
+	max-width:888px;
+	margin:auto;
+	padding:0
 }
 
 .socialfooter li{
-  float:left;
-  margin:0;
-  padding-right: 5px;
+	float:left;
+	margin:0;
+	padding-right: 5px;
 }
 
 .social-icons {
-    background: url("http://assets.primetaxi.gr/img/social_icons/social_icons_sprite.png") repeat scroll 0% 0% transparent;
-    float: right;
+	background: url("http://assets.primetaxi.gr/img/social_icons/social_icons_sprite.png") repeat scroll 0% 0% transparent;
+	float: right;
 }
 
 .icon {
