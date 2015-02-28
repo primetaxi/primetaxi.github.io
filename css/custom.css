@@ -119,4 +119,4 @@ a:active,a:hover{outline:0}@-ms-viewport{width:device-width}@-o-viewport{width:d
 
 
 
-@media screen and (max-width:640px){.grid-2{text-align: center;}}
+@media screen and (max-width:640px){.grid-2,.topalignright{text-align: center;}}
