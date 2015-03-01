@@ -66,7 +66,7 @@ a:active,a:hover{outline:0}@-ms-viewport{width:device-width}@-o-viewport{width:d
 /* ------------------------------------------
   Custom CSS
 --------------------------------------------- */
-.minheight300{min-height:300px}h1{font-size:1em;margin-bottom:.5em}h2,h3,h4{padding:.7em;color:#fec901;background-color:#2d2d2d;margin:0;font-size:1.5em}
+.minheight300{min-height:300px}h1{font-size:1.5em;margin-bottom:.5em}h2,h3,h4{padding:.7em;color:#fec901;background-color:#2d2d2d;margin:0;font-size:1.2em}
 /* Services Sprite */
 .servicessprite{background:url(../img/services-sprite.png)}.fan{background-position:0 0;width:128px;height:128px}.baby{background-position:0 -133px;width:128px;height:128px}.plane{background-position:0 -266px;width:128px;height:128px}.wifi{background-position:0 -399px;width:128px;height:128px}.ipad{background-position:0 -532px;width:128px;height:128px}.wedding{background-position:0 -665px;width:128px;height:128px}.social{list-style:none;overflow:auto;max-width:888px;margin:auto;padding:0}.social li{float:left;margin:0 10px 150px}.social li p{margin-top:130px}
 /* Contact form */
