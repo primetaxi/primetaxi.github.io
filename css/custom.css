@@ -117,5 +117,10 @@ a:active,a:hover{outline:0}@-ms-viewport{width:device-width}@-o-viewport{width:d
 	background-position: 0px -198px;
 }
 
+/* Center div */
+.divcenter {
+	text-align: center;
+}
+
 /* Center logo and language icons for 640px */
 @media screen and (max-width:640px){.grid-2,.topalignright{text-align: center;}}
