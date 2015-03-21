@@ -5,6 +5,8 @@
 -------------------------------------------------------------- */
 @-o-viewport{width:device-width}@-ms-viewport{width:device-width}@viewport{width:device-width}html{overflow-y:auto}audio,canvas,img,video{max-width:100%}
 .grid-full{background-color: #0C0C0C}
+.grid-4 {}
+.topalignright{text-align:right;color:#fff}.topalignright a{text-align:right;text-decoration:none;color:#fff}.small-text{font-size:80%;color:#7f7f7f}
 .top {
     background-color: #0C0C0C;
     margin: 0px;
