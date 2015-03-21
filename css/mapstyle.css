@@ -46,7 +46,7 @@ a:active,a:hover{outline:0}@-ms-viewport{width:device-width}@-o-viewport{width:d
 /* ------------------------------------------
   Custom CSS
 --------------------------------------------- */
-img {max-width: 250px}
+.grid2 img {max-width: 250px}
 /*  Social Footer */
 .socialfooter {
   color: #FEC901;
