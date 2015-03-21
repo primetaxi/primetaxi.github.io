@@ -4,7 +4,12 @@
 /* Responsive Resets
 -------------------------------------------------------------- */
 @-o-viewport{width:device-width}@-ms-viewport{width:device-width}@viewport{width:device-width}html{overflow-y:auto}audio,canvas,img,video{max-width:100%}
-.grid-full{float:left;width:96.969696969697%;margin:0 1.515151515152% 1em}
+.grid-full{background-color: #0C0C0C}
+.top {
+    background-color: #0C0C0C;
+    margin: 0px;
+    padding-top: 1.3em;
+    width: 100%;
 
 /* ------------------------------------------
   PAGE'S STYLES
