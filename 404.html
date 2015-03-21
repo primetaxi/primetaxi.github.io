@@ -11,13 +11,20 @@
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
       }
 
-      .container { margin: 50px auto 40px auto; width: 600px; text-align: center; }
+      .container { margin: 0px auto 40px auto; width: 600px; text-align: center; }
 
       a { color: #4183c4; text-decoration: none; }
       a:hover { text-decoration: underline; }
 
       h1 { width: 800px; position:relative; left: -100px; letter-spacing: -1px; line-height: 60px; font-size: 60px; font-weight: 100; text-shadow: 0 1px 0 #fff; }
+      hr { border: 0; height: 1px; background: #333; background-image: -webkit-linear-gradient(left, #ccc, #909090, #ccc); background-image: -moz-linear-gradient(left, #ccc, #909090, #ccc); background-image: -ms-linear-gradient(left, #ccc, #909090, #ccc); background-image: -o-linear-gradient(left, #ccc, #909090, #ccc); }
       p { color: rgba(0, 0, 0, 0.5); margin: 20px 0; line-height: 1.6; }
+
+      .logo {
+        background-color: #0C0C0C;
+        padding-top: 1em;
+        text-align: center;
+      }
 
       #suggestions {
         margin-top: 35px;
@@ -33,10 +40,10 @@
     </style>
   </head>
   <body>
-
-    <div class="container">
-
+    <div class="logo">
       <a href="http://www.primetaxi.gr/"><img src="http://assets.primetaxi.gr/img/prime-taxi.png" alt="taxi halkidiki"></a>
+    </div>
+    <div class="container">
 
       <h1>404</h1>
       <p><strong>This is not the web page you are looking for!</strong></p>
@@ -46,6 +53,9 @@
       </p>
 
       <p>You can go to our <a href="http://www.primetaxi.gr/en">home page</a>.</p>
+
+      <br>
+      <hr>
 
       <div id="suggestions">
         <a href="http://www.primetaxi.gr/">PrimeTaxi</a> &mdash;
