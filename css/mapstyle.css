@@ -98,3 +98,13 @@ a:active,a:hover{outline:0}@-ms-viewport{width:device-width}@-o-viewport{width:d
 
 /* Center logo and language icons for 640px */
 @media screen and (max-width:640px){.grid-2,.topalignright{text-align: center;}}
+
+/* Google maps styles */
+.googlemaps {
+height: 100%;
+width: 100%;
+position:absolute;
+top: 0;
+left: 0;
+z-index: 0; /* Set z-index to 0 as it will be on a layer below the contact form */
+}
