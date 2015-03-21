@@ -1,5 +1,9 @@
-/* Import style.css */
-/*@import url("http://assets.primetaxi.gr/css/style.css");*/
+/* Layout
+-------------------------------------------------------------- */
+body{font:100%/1.5 sans-serif;margin-top:0;margin-bottom:0;background:#eee;/*url(../img/bg_gray.png) repeat*/}footer{font-size:.9em;border-top:5px solid #fec901;padding:.5em 1em;padding-bottom:5em;background-color:#0c0c0c;color:#fff}footer a{color:#7f7f7f}
+/* Typography
+-------------------------------------------------------------- */
+.heading{font-size:3em;margin:0}.top{background-color:#0c0c0c;margin:0;padding-top:1.3em;width:100%}.topalignright{text-align:right;color:#fff}.topalignright a{text-align:right;text-decoration:none;color:#fff}.small-text{font-size:80%;color:#7f7f7f}.sub-heading{font-size:1.5em;margin-bottom:.5em}a{color:#0c0c0c}a:focus,a:hover{color:#fec901}
 
 /* Responsive Resets
 -------------------------------------------------------------- */
