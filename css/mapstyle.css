@@ -46,12 +46,6 @@ a:active,a:hover{outline:0}@-ms-viewport{width:device-width}@-o-viewport{width:d
 /* ------------------------------------------
   Custom CSS
 --------------------------------------------- */
-.minheight300{min-height:300px}h1{font-size:1.5em;margin-bottom:.5em}h2,h3,h4{padding:.7em;color:#fec901;background-color:#2d2d2d;margin:0;font-size:1.2em}
-/* Services Sprite */
-.servicessprite{background:url(../img/services-sprite.png)}.fan{background-position:0 0;width:128px;height:128px}.baby{background-position:0 -133px;width:128px;height:128px}.plane{background-position:0 -266px;width:128px;height:128px}.wifi{background-position:0 -399px;width:128px;height:128px}.ipad{background-position:0 -532px;width:128px;height:128px}.wedding{background-position:0 -665px;width:128px;height:128px}.social{list-style:none;overflow:auto;max-width:888px;margin:auto;padding:0}.social li{float:left;margin:0 10px 150px}.social li p{margin-top:130px}
-/* Contact form */
-.formwrap{width:100%;max-width:480px}fieldset{border:0}.formstyle{border:#ccc solid 1px;color:#2d2d2d;font-size:18px;width:98%;background-color:#fff;margin-bottom:10px;padding:3px;transition:all .4s ease-in-out;border-radius:2px}.button{display:inline-block;text-decoration:none;text-align:center;font:700 16px/16px Lato,Arial,sans-serif;width:200px;padding:10px;margin:0 0 5px;color:#eee;background-color:#2d2d2d;border:#dedede solid 1px;border-radius:3px}.btnbooking{width:100%;font-size:28px;background-color:#fec901;padding:20px 0;color:#2d2d2d}.button:hover{color:#2d2d2d;background-color:#fec901;cursor:pointer}.btnbooking:hover{color:#eee}.vcard{padding:15px}.booking{background-color:#eee;padding:20px 0;text-align:right}.h1slogan{text-align:center}.help-block{color:red}#gmap_canvas img{max-width:none!important;background:none!important}
-
 /*  Social Footer */
 .socialfooter {
   color: #FEC901;
@@ -104,44 +98,3 @@ a:active,a:hover{outline:0}@-ms-viewport{width:device-width}@-o-viewport{width:d
 
 /* Center logo and language icons for 640px */
 @media screen and (max-width:640px){.grid-2,.topalignright{text-align: center;}}
-
-/* Print Style */
-@media print {
-body {background:white; 
-     font-size:10pt; 
-     margin:0 }
-#sidebar { display:none }
-#header { height:75px }
-#content{ margin-left:0; 
-     float:none; 
-     width:auto }
-.demo .red { color:black; 
-     font-weight:bold }
-#content a { font-weight:bold; 
-     color:#000066; 
-     text-decoration:underline }
-#content{ margin-left:0; 
-     float:none; 
-     width:auto }
-#footer, .ad { display:none }
-h1, h2, h3, h4, h5, h6 { page-break-after:avoid; 
-     page-break-inside:avoid }
-h3 { margin-left:10px; 
-     margin-bottom:0px; 
-     padding-bottom:0px }
-blockquote, table, pre { page-break-inside:avoid }
-ul, ol, dl  { page-break-before:avoid }
-img.centered { display: block; 
-     margin-left: auto; 
-     margin-right: auto; }
-img.right { padding: 4px; 
-     margin: 0 0 2px 7px; 
-     display: inline; }
-img.left { padding: 4px; 
-     margin: 0 7px 2px 0; 
-     display: inline; }
-.right { float: right; }
-.left { float: left }
-img { page-break-inside:avoid; 
-     page-break-after:avoid; }
-}
