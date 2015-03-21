@@ -46,7 +46,7 @@ a:active,a:hover{outline:0}@-ms-viewport{width:device-width}@-o-viewport{width:d
 /* ------------------------------------------
   Custom CSS
 --------------------------------------------- */
-.grid-full .top .grid2 img {max-width: 250px}
+
 /*  Social Footer */
 .socialfooter {
   color: #FEC901;
@@ -99,3 +99,5 @@ a:active,a:hover{outline:0}@-ms-viewport{width:device-width}@-o-viewport{width:d
 
 /* Center logo and language icons for 640px */
 @media screen and (max-width:640px){.grid-2,.topalignright{text-align: center;}}
+
+.grid-2 img {max-width: 250px;}
