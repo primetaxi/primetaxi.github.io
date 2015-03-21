@@ -9,8 +9,8 @@ body{font:100%/1.5 sans-serif;margin-top:0;margin-bottom:0;background:#eee;/*url
 -------------------------------------------------------------- */
 @-o-viewport{width:device-width}@-ms-viewport{width:device-width}@viewport{width:device-width}html{overflow-y:auto}audio,canvas,img,video{max-width:100%}
 .grid-full{background-color: #0C0C0C}
-.grid-2 {width: 25%}
-.grid-4 {margin:0 1em}
+.grid-2 {width: 25%;}
+.grid-4 {width: 25%;margin:0 1em}
 .topalignright{text-align:right;color:#fff}.topalignright a{text-align:right;text-decoration:none;color:#fff}.small-text{font-size:80%;color:#7f7f7f}
 .top {
     background-color: #0C0C0C;
