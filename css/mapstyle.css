@@ -101,11 +101,6 @@ a:active,a:hover{outline:0}@-ms-viewport{width:device-width}@-o-viewport{width:d
 
 /* Google maps styles */
 .googlemaps {
-height: 90%;
+height: 87%;
 width: 100%;
-position:absolute;
-bottom: 0;
-top: 0;
-left: 0;
-z-index: 0; /* Set z-index to 0 as it will be on a layer below the contact form */
 }
