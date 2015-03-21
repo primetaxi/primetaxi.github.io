@@ -1,5 +1,12 @@
 /* Import style.css */
 /*@import url("http://assets.primetaxi.gr/css/style.css");*/
+
+/* Responsive Resets
+-------------------------------------------------------------- */
+@-o-viewport{width:device-width}@-ms-viewport{width:device-width}@viewport{width:device-width}html{overflow-y:auto}audio,canvas,img,video{max-width:100%}
+
+
+
 /* ------------------------------------------
   PAGE'S STYLES
 --------------------------------------------- */
