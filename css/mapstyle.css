@@ -101,3 +101,5 @@ a:active,a:hover{outline:0}@-ms-viewport{width:device-width}@-o-viewport{width:d
 @media screen and (max-width:640px){.grid-2,.topalignright{text-align: center;}}
 
 .grid-2 img {max-width: 250px;}
+
+html, body, #map-canvas { clear: both; height: 92%; margin: 0; padding: 0;}
